@@ -1,0 +1,52 @@
+/* Add this to your existing styles or create a new CSS file */
+
+.create-trip-form-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input-form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.CreateTrips-Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  width: 100%; /* Set labels to 100% width for equal alignment */
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%; /* Set inputs to 100% width for equal alignment */
+}
+
+.create-trip-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.create-trip-button:hover {
+  background-color: #9c9c9c;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
